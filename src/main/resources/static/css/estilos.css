@@ -20,3 +20,36 @@
 .prioridad2 {
     color: red;
 }
+
+p {
+    word-spacing: 8px;
+}
+.ejemploCajas{
+    border: 2px solid black;
+    
+/*    Paddings: 1 param 4 sides, 2 param top/bottom, 3 param top - l/r - bottom, 4 param top - r - bottom - l*/
+    padding: 10px;
+    
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+a {
+    color: darkblue;
+    background-color: aquamarine;
+    border: 2px solid aquamarine;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 25px;
+}
+
+a:visited {
+    color: crimson;
+}
+
+a:hover {
+    color: white;
+    background-color: darkblue;
+    transition: 1s; 
+}
