@@ -12,8 +12,10 @@ import org.springframework.transaction.annotation.Transactional;
 
 @Service
 public class UsuarioServiceImpl implements UsuarioService {
+    
     @Autowired
     private UsuarioDao usuarioDao;
+    
     @Autowired
     private RolDao rolDao;
 
